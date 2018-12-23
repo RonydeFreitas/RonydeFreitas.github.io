@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="jogo.js"></script>
+</head>
+<body onresize="tamanhoDaTela()">
+    
+    <div class="painel">
+        <div class="vidas">
+            <img id="v1" src="imagens/coracao_cheio.png" alt="">
+            <img id="v2" src="imagens/coracao_cheio.png" alt="">
+            <img id="v3" src="imagens/coracao_cheio.png" alt="">
+        </div>
+
+        <div class="cronometro">
+            Tempo restante: <span id="contador" ></span>
+        </div>
+
+    </div>
+
+    <script>
+        document.getElementById('contador').innerHTML = tempo
+        var posicaoMosca = setInterval(function() {posicaoRandomica()}, nivel)
+    </script>
+    
+</body>
+</html>
