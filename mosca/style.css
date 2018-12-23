@@ -12,6 +12,11 @@ body{
 	/*width: 100%;*/
 }
 
+.imagemFixa_index_over{
+	max-width: 400px !important;
+	width: 80%;
+	height: 80%;
+}
 .painel{
     position: absolute;
     width: 200px;
