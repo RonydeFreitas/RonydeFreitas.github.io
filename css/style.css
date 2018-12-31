@@ -1,17 +1,48 @@
-@import url('https://fonts.googleapis.com/css?family=Bitter');
 html *{
-    font-family: 'Bitter', sans-serif !important;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.navbar{
+	background-color: white;
+	box-shadow: 0 0 10px #c2ced6;
+}
+
+.titulo{
+	font-weight: 600;
+	color: #757575;
+}
+
+.sub-titulo{
+	color: #b7b7b7;
+}
+
+.descricao{
+	font-weight: 500;
+	max-width: 600px;
+}
+
+.conhecimentos, .redes, .contatos{
+	color: #5a6268;
+	font-weight: 700;
+}
+
+.informacao-final{
+	font-size: 0.8em;
+}
+
+li{
+	font-weight: 500;
+	margin-left: 16px;
+	list-style: none;
+}
+
+li span{
+	font-weight: 700;
 }
 
 img{
-    filter: contrast(0%) brightness(190%);
+    filter: contrast(0%) brightness(160%);
     transition-duration: 0.5s;
-    height: 300px;
-}
-
-.row{
-    margin-left: 0 !important;
-    margin-right: 0 !important;
 }
 
 img:hover{
@@ -20,106 +51,9 @@ img:hover{
 
 h3{
     margin: 0 32px;
-    color: #757575 !important;
+    color: #757575;
 }
 
 h5{
-    margin-top: 32px !important;
-    color: #757575 !important;
-}
-
-button{
-    margin-bottom: 32px !important;
-    margin-top: 8px !important;
-}
-/*Animação texto*/
-.text {
-    position: absolute;
-    text-align: center;
-    margin-left: -64px;
-}
-
-p {
-    font-family: 'Bitter', sans-serif;
-    font-weight: 300;
-    font-size: 40px;
-    display: inline-block;
-    text-align: center;
-    vertical-align: top;
-    /* margin: 0; */
-    color: #4e555b;
-}
-
-.word {
-    position: absolute;
-    /*width: 100%;*/
-    opacity: 0;
-}
-
-.letter {
-    display: inline-block;
-    position: relative;
-    float: left;
-    transform: translateZ(25px);
-    transform-origin: 50% 50% 25px;
-}
-
-.letter.out {
-    transform: rotateX(90deg);
-    transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
-
-.letter.behind {
-    transform: rotateX(-90deg);
-}
-
-.letter.in {
-    transform: rotateX(0deg);
-    transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.wisteria {
-    color: #8e44ad;
-}
-
-.belize {
-    color: #2980b9;
-}
-
-.pomegranate {
-    color: #c0392b;
-}
-
-.green {
-    color: #16a085;
-}
-
-.midnight {
-    color: #2c3e50;
-}
-
-
-@media (max-width: 599px) {
-    img{
-        filter: contrast(0%) brightness(190%);
-        transition-duration: 0.5s;
-    }
-
-    .text {
-        position: absolute;
-        text-align: center;
-        left: calc(50% - 110px);
-        top: 5%;
-    }
-
-    p {
-        font-family: 'Bitter', sans-serif;
-        font-weight: 300;
-        font-size: 20px;
-        display: inline-block;
-        text-align: center;
-        vertical-align: top;
-        /* margin: 0; */
-        color: #4e555b;
-    }
+    color: #757575;
 }
